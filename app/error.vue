@@ -1,16 +1,13 @@
-<script setup>
-import errorImage from './assets/images/404.svg?raw'
-</script>
-
 <template>
   <NuxtLayout name="default">
     <a
       class="
         mx-auto flex h-full w-full max-w-[600px] items-center justify-center
-        [&_svg]:w-full
+        [&_img]:w-full
       "
+      title="404 Not Found"
       href="/"
-      v-html="errorImage"
-    />
+    ><img src="./assets/images/NotFound.png" alt="NotFound" />
+    </a>
   </NuxtLayout>
 </template>
