@@ -64,8 +64,8 @@ export default defineNuxtConfig({
     openAPI: {
       production: 'runtime',
       meta: {
-        title: 'Sink API',
-        description: 'A Simple / Speedy / Secure Link Shortener with Analytics, 100% run on Cloudflare.',
+        title: 'Lost Dream API',
+        description: 'Link Shortener powered by Sink',
       },
       route: '/_docs/openapi.json',
       ui: {

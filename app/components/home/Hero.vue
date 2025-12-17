@@ -1,7 +1,6 @@
 <script setup>
 import { AreaChart } from 'lucide-vue-next'
 import { GitHubIcon } from 'vue3-simple-icons'
-import heroImg from '@/assets/images/hero.svg?raw'
 
 const { title, description, github } = useAppConfig()
 </script>
@@ -35,7 +34,6 @@ const { title, description, github } = useAppConfig()
       >
         <HomeLink
           href="/dashboard"
-          target="_blank"
           title="Dashboard"
           class="flex items-center justify-center gap-1"
           rel="noopener"
@@ -67,9 +65,9 @@ const { title, description, github } = useAppConfig()
         md:block
       "
     >
-      <div
+      <img
         class="w-[512px]"
-        v-html="heroImg"
+        src="@/assets/images/LostDream.png"
       />
     </div>
   </main>
